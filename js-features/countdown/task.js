@@ -3,7 +3,8 @@ const timer = document.getElementById('timer');
 let time = timer.textContent;
 
 const formatTime = new Date();
-formatTime.setTime(time * 1000 + formatTime.getTimezoneOffset() * 60000);
+formatTime.setTime(time * 1000 + formatTime.getTimezoneOffset()
+ * 60000);
 
 const addText = function() {
   time--;
