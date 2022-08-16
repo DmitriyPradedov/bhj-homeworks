@@ -6,7 +6,7 @@ let lastTime = Date.now();
 
 cookie.onclick = () => {
   if (cookie.width == 200)
-    cookie.width = 300;
+    cookie.width = 250;
   else
     cookie.width = 200;
   counter.textContent++;
