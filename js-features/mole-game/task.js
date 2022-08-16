@@ -19,7 +19,7 @@ for (let i = 1; i < 10; i++) {
       clear();
     }
     if (lost.textContent == 5) {
-      alert('Вы проиграли');
+      alert('Вы проиграли :)');
       clear();
     }
   }
