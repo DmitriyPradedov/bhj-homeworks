@@ -10,7 +10,7 @@ const clear = () => {
 
 for (let i = 1; i < 10; i++) {
   getHole(i).onclick = () => {
-    if (getHole(i).className.includes('hole_has-mole'))
+    if (getHole(i).classList.contains('hole_has-mole'))
       dead.textContent++;
     else
       lost.textContent++;
