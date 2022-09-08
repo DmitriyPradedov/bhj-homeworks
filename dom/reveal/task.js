@@ -12,6 +12,7 @@ function show(event) {
         const elementTop = element.getBoundingClientRect().top;
         if (elementTop < viewportHeight) {
             element.classList.add('reveal_active');
+            
         } else {
             element.classList.remove('reveal_active');
         }
