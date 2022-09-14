@@ -18,7 +18,7 @@ xhr.onload = function() {
   const answerBtn = [...document.getElementsByClassName('poll__answer')];
   answerBtn.forEach((item, i) => {
     item.onclick = function() {
-      alert('Спасибоб ваш голос засчитан!')
+      alert('Спасибо, ваш голос засчитан!')
       xhrBtn.open('POST', 'https://netology-slow-rest.herokuapp.com/poll.php');
       xhrBtn.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
       xhrBtn.send(`vote=${rezult.id}&answer=${i}`);
