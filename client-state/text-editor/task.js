@@ -6,7 +6,7 @@ textArea.addEventListener('keyup', event => {
 
 window.onload = function() {
   if (localStorage.textArea != undefined) {
-    document.getElementById('editor').value = localStorage.textArea;
+    document.getElementById('editor').value = localStorage.getItem('textArea');
   }
 };
 
